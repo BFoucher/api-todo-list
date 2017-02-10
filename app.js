@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const apiTodos = require('./api/todos');
+const apiTodos = require('./src/api/todos');
 
 let app = express();
 let port = 3000;
